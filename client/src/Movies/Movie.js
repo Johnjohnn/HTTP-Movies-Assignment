@@ -25,7 +25,7 @@ function Movie({ addToSavedList }) {
   if (!movie) {
     return <div>Loading movie information...</div>;
   }
-
+                                                                                                 // UPDATE MOVIE BUTTON CREATED 
   return (
     <div className="save-wrapper">
       <MovieCard movie={movie} />
